@@ -15,8 +15,21 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+
 Route::get('/', function () {
-    return view('welcome');
+    return view('index');
+});
+
+Route::get('/fahri', function () {
+    return view('latihann.fahri');
+});
+
+Route::get('/syam', function () {
+    return view('latihann.syam');
+});
+
+Route::get('/dlann', function () {
+    return view('latihann.dlann');
 });
 
 Route::get('/dashboard', function () {

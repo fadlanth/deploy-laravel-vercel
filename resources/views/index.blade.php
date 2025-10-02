@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Biodata Kelompok</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <style>
+      body,
+      html {
+        margin: 0;
+        padding: 0;
+        font-family: "Segoe UI", sans-serif;
+        background: #0a0a0a;
+        color: #eee;
+      }
+
+      /* Hero */
+      .hero {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(135deg, #000000, #0a0f3c, #1a237e);
+        color: white;
+        overflow: hidden;
+      }
+
+      .hero-text {
+        flex: 1;
+        padding-left: 5%;
+      }
+
+      .hero-text h1 {
+        font-size: 4rem;
+        font-weight: 800;
+      }
+
+      .hero-text span {
+        color: #00e676; /* hijau neon */
+      }
+
+      .hero-text p {
+        color: #bbb;
+        font-size: 1.2rem;
+      }
+
+      .hero-img {
+        flex: 1;
+        text-align: center;
+      }
+
+      .hero-img img {
+        width: 80%;
+        max-width: 400px;
+        border-radius: 12px;
+        box-shadow: 0px 0px 30px rgba(0, 230, 118, 0.4);
+      }
+
+      /* Section Anggota */
+      .anggota {
+        padding: 80px 0;
+        background: linear-gradient(180deg, #0a0a0a, #1c1c2d);
+      }
+
+      .anggota h2 {
+        text-align: center;
+        color: #00e676;
+        margin-bottom: 60px;
+        font-weight: bold;
+      }
+
+      /* Card */
+      .member-card {
+        background: linear-gradient(145deg, #0a0f3c, #1a237e);
+        padding: 25px;
+        border-radius: 18px;
+        text-align: center;
+        transition: all 0.3s ease;
+        box-shadow: 0 6px 18px rgba(0, 0, 0, 0.6);
+        border: none;
+      }
+
+      .member-card:hover {
+        background: linear-gradient(145deg, #1c1c2d, #283593);
+        transform: translateY(-8px);
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.9);
+      }
+
+      /* Foto profil */
+      .profile-img {
+        width: 130px;
+        height: 130px;
+        object-fit: cover;
+        border-radius: 50%;
+        border: 3px solid #00e676;
+        margin-bottom: 15px;
+        box-shadow: 0 0 15px rgba(0, 230, 118, 0.5);
+      }
+
+      .member-card h4 {
+        color: #00e676;
+        margin-bottom: 10px;
+      }
+
+      .member-card p {
+        font-size: 0.95rem;
+        color: #ccc;
+      }
+
+      /* Footer */
+      footer {
+        background: #000;
+        color: #aaa;
+        text-align: center;
+        padding: 25px;
+        border-top: 2px solid #1a237e;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero-text">
+        <h1>Hi!<span>KELOMPOK 4</span></h1>
+        <p>Kami adalah kelompok 4.</p>
+      </div>
+      <div class="hero-img">
+        <img src="https://i.pravatar.cc/500?img=12" alt="Foto Kelompok" />
+      </div>
+    </section>
+
+    <!-- Perkenalan Anggota -->
+    <section class="anggota">
+      <div class="container">
+        <h2>Anggota Kelompok</h2>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <a href="fahri" style="text-decoration: none; color: inherit">
+              <div class="member-card">
+                <img src="biodata/assets/Fachri.jpg" alt="Fachri" class="profile-img" />
+                <h4>Fachri</h4>
+                <p>
+                  <a href="https://instagram.com/kfchri" target="_blank" style="color: #00e676; text-decoration: underline">@kfchri</a><br />
+                  Kelas: XI-PPL2
+                </p>
+                <p>Hater.</p>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-md-4">
+            <a href="syam" style="text-decoration: none; color: inherit">
+              <div class="member-card">
+                <img src="biodata/assets/memet.jpeg" alt="syam" class="profile-img" />
+                <h4>Rohni</h4>
+                <p>
+                  <a href="https://instagram.com/__syamm" target="_blank" style="color: #00e676; text-decoration: underline">@__syamm</a><br />
+                  Kelas: XI-PPL2
+                </p>
+                <p>Hater.</p>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-md-4">
+            <a href="dlann" style="text-decoration: none; color: inherit">
+              <div class="member-card">
+                <img src="https://i.pravatar.cc/150?img=15" alt="Fadlan" class="profile-img" />
+                <h4>Fadlan</h4>
+                <p>
+                  <a href="https://instagram.com/muh_fadlnn" target="_blank" style="color: #00e676; text-decoration: underline">@muh_fadlnn</a><br />
+                  Kelas: XI-PPL2
+                </p>
+                <p>Hater.</p>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-md-4">
+            <a href="https://example.com" style="text-decoration: none; color: inherit">
+              <div class="member-card">
+                <img src="biodata/assets/foto.webp" alt="foto didieu" class="profile-img" />
+                <h4>Junior</h4>
+                <p>
+                  <a href="https://instagram.com/Junior" target="_blank" style="color: #00e676; text-decoration: underline">@juu</a><br />
+                  Kelas: XI-PPL2
+                </p>
+                <p>Hater.</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2025 Kelompok 4 | Dibuat dengan ❤️</p>
+    </footer>
+  </body>
+</html>
